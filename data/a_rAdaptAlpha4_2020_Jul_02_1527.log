@@ -1,0 +1,93 @@
+2.4513 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+8.9822 	WARNING 	User requested fullscreen with size [1088  614], but screen is actually [1360, 768]. Using actual size
+10.9665 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AEAB9F27F0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AE262161D0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.9666 	EXP 	window1: recordFrameIntervals = False
+11.1320 	EXP 	window1: recordFrameIntervals = True
+11.3164 	EXP 	window1: recordFrameIntervals = False
+11.9499 	EXP 	Created setupText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='setupText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Move mouse.Space continue', units='height', win=Window(...), wrapWidth=1)
+11.9628 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+11.9815 	EXP 	Created trialTarget = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-2.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trialTarget', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+11.9959 	EXP 	Created trialHome = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trialHome', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.05, 0.05]), units='height', vertices=ndarray(...), win=Window(...))
+12.0093 	EXP 	Created trialCursor = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-4.0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='trialCursor', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+12.0305 	EXP 	Created trialText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialText', opacity=1.0, ori=0, pos=array([-0.4,  0.4]), rgb=array([255., 255., 255.]), text='Any text\n\nincluding line breaks', units='height', win=Window(...), wrapWidth=1)
+12.0498 	EXP 	Created trialBuff = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-8.0, fillColor=None, fillColorSpace='rgb', fillRGB=None, interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=1, name='trialBuff', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+12.0552 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Space end.', units='height', win=Window(...), wrapWidth=1)
+12.0876 	EXP 	setupText: autoDraw = True
+12.3728 	EXP 	Imported taskConds.xlsx as conditions, 3 conditions, 4 params
+12.3733 	EXP 	Created sequence: sequential, trialTypes=3, nReps=1, seed=None
+12.3739 	EXP 	New trial (rep=0, index=0): OrderedDict([('condsFile', 'famConds.xlsx'), ('taskVersion', 'Familiarization'), ('taskReps', 24), ('loopCount', 0)])
+12.3847 	DATA 	Keypress: space
+12.3898 	EXP 	setupText: autoDraw = False
+12.3898 	EXP 	instrText: text = 1
+12.3898 	EXP 	instrText: autoDraw = True
+12.8790 	EXP 	Imported famConds.xlsx as conditions, 24 conditions, 2 params
+12.8796 	EXP 	Created sequence: sequential, trialTypes=24, nReps=1, seed=None
+12.8802 	EXP 	New trial (rep=0, index=0): OrderedDict([('trialNum', 0), ('phase', 'Align')])
+12.8804 	EXP 	window1: mouseVisible = False
+12.8837 	DATA 	Keypress: space
+12.8959 	EXP 	instrText: autoDraw = False
+12.8959 	EXP 	trialText: text = '1'
+12.8959 	EXP 	trialCursor: pos = (1.5, 1.5)
+12.8959 	EXP 	trialTarget: autoDraw = True
+12.8959 	EXP 	trialHome: autoDraw = True
+12.8959 	EXP 	trialCursor: autoDraw = True
+12.8959 	EXP 	trialText: autoDraw = True
+12.8959 	EXP 	trialBuff: autoDraw = True
+14.2108 	EXP 	New trial (rep=0, index=1): OrderedDict([('trialNum', 1), ('phase', 'Align')])
+14.2112 	EXP 	window1: mouseVisible = False
+14.2293 	EXP 	trialTarget: autoDraw = False
+14.2293 	EXP 	trialHome: autoDraw = False
+14.2293 	EXP 	trialCursor: autoDraw = False
+14.2293 	EXP 	trialText: autoDraw = False
+14.2293 	EXP 	trialBuff: autoDraw = False
+14.2293 	EXP 	trialText: text = '2'
+14.2293 	EXP 	trialCursor: pos = (1.5, 1.5)
+14.2293 	EXP 	trialTarget: autoDraw = True
+14.2293 	EXP 	trialHome: autoDraw = True
+14.2293 	EXP 	trialCursor: autoDraw = True
+14.2293 	EXP 	trialText: autoDraw = True
+14.2293 	EXP 	trialBuff: autoDraw = True
+15.1068 	EXP 	New trial (rep=0, index=2): OrderedDict([('trialNum', 2), ('phase', 'Align')])
+15.1069 	EXP 	window1: mouseVisible = False
+15.1229 	EXP 	trialTarget: autoDraw = False
+15.1229 	EXP 	trialHome: autoDraw = False
+15.1229 	EXP 	trialCursor: autoDraw = False
+15.1229 	EXP 	trialText: autoDraw = False
+15.1229 	EXP 	trialBuff: autoDraw = False
+15.1229 	EXP 	trialText: text = '3'
+15.1229 	EXP 	trialCursor: pos = (1.5, 1.5)
+15.1229 	EXP 	trialTarget: autoDraw = True
+15.1229 	EXP 	trialHome: autoDraw = True
+15.1229 	EXP 	trialCursor: autoDraw = True
+15.1229 	EXP 	trialText: autoDraw = True
+15.1229 	EXP 	trialBuff: autoDraw = True
+16.1397 	EXP 	New trial (rep=0, index=3): OrderedDict([('trialNum', 3), ('phase', 'Align')])
+16.1399 	EXP 	window1: mouseVisible = False
+16.1558 	EXP 	trialTarget: autoDraw = False
+16.1558 	EXP 	trialHome: autoDraw = False
+16.1558 	EXP 	trialCursor: autoDraw = False
+16.1558 	EXP 	trialText: autoDraw = False
+16.1558 	EXP 	trialBuff: autoDraw = False
+16.1558 	EXP 	trialText: text = '4'
+16.1558 	EXP 	trialCursor: pos = (1.5, 1.5)
+16.1558 	EXP 	trialTarget: autoDraw = True
+16.1558 	EXP 	trialHome: autoDraw = True
+16.1558 	EXP 	trialCursor: autoDraw = True
+16.1558 	EXP 	trialText: autoDraw = True
+16.1558 	EXP 	trialBuff: autoDraw = True
+17.3076 	EXP 	New trial (rep=0, index=4): OrderedDict([('trialNum', 4), ('phase', 'Align')])
+17.3078 	EXP 	window1: mouseVisible = False
+17.3246 	EXP 	trialTarget: autoDraw = False
+17.3246 	EXP 	trialHome: autoDraw = False
+17.3246 	EXP 	trialCursor: autoDraw = False
+17.3246 	EXP 	trialText: autoDraw = False
+17.3246 	EXP 	trialBuff: autoDraw = False
+17.3246 	EXP 	trialText: text = '5'
+17.3246 	EXP 	trialCursor: pos = (1.5, 1.5)
+17.3246 	EXP 	trialTarget: autoDraw = True
+17.3246 	EXP 	trialHome: autoDraw = True
+17.3246 	EXP 	trialCursor: autoDraw = True
+17.3246 	EXP 	trialText: autoDraw = True
+17.3246 	EXP 	trialBuff: autoDraw = True
+18.5140 	DATA 	Keypress: escape
+18.9947 	EXP 	window1: mouseVisible = True
